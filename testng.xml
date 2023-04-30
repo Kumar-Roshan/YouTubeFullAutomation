@@ -3,6 +3,20 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
           name="C:/Users/kumar/IdeaProjects/YouTube/src/test/java/org/example/AppTest.java">
-        <classes/>
+        <parameter name="browser" value="edge"></parameter>
+        <parameter name="url" value="https://www.google.com/"></parameter>
+        <classes>
+            <class name="org.example.AppTest"></class>
+        </classes>
     </test>
+    <test verbose="2" preserve-order="true"
+
+          name="test2">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="https://www.google.com/"></parameter>
+        <classes>
+            <class name="org.example.AppTest"></class>
+        </classes>
+    </test>
+
 </suite>
